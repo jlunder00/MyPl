@@ -1,0 +1,27 @@
+# import statements
+import test5
+import test4 as t4
+from test3 import MyType
+
+
+# function definitions and function calls
+fun int f(x: int)
+  return x + 1
+end
+
+
+
+# TODO: other variants of function definitions
+# (e.g., different parameter numbers)
+
+
+fun int main()
+
+  var x = f(1)
+  f(3)
+  x = f(4) + f(3)
+
+  # TODO: other variants of function calls
+
+end
+

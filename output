@@ -1,0 +1,736 @@
+IN PARSE LOOPimport
+<enter Import stmt>
+<START IMPORT STMT>
+input stream not yet created
+hw3-tests/test5.myplin second
+1
+hw3-tests/hw3-tests
+IN PARSE LOOPfun
+<enter FDecl>
+<enter params>
+<exit params>
+<enter stmts>
+<enter WhileStmt>
+<enter expr>
+<true>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<enter stmts>
+<exit stmts>
+<exit WhileStmt>
+<enter stmts>
+<enter WhileStmt>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 10:9>
+<ID 'x' 10:9>
+<NOT_EQUAL '!=' 10:11>
+<exit RValue>
+<enter expr>
+<1>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 11:9>
+<ID 'x' 11:9>
+<MINUS '-' 11:11>
+<exit RValue>
+<enter expr>
+<1>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit WhileStmt>
+<enter stmts>
+<enter WhileStmt>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 15:9>
+<ID 'x' 15:9>
+<LESS '<' 15:11>
+<exit RValue>
+<enter expr>
+<n>
+<enter RValue>
+<ID 'n' 15:13>
+<ID 'n' 15:13>
+<DO 'do' 15:15>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter WhileStmt>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 16:11>
+<ID 'y' 16:11>
+<LESS '<' 16:13>
+<exit RValue>
+<enter expr>
+<n>
+<enter RValue>
+<ID 'n' 16:15>
+<ID 'n' 16:15>
+<DO 'do' 16:17>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 17:11>
+<ID 'y' 17:11>
+<PLUS '+' 17:13>
+<exit RValue>
+<enter expr>
+<1>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit WhileStmt>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 19:9>
+<ID 'x' 19:9>
+<PLUS '+' 19:11>
+<exit RValue>
+<enter expr>
+<1>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit WhileStmt>
+<enter stmts>
+<enter ForStmt>
+<enter expr>
+<0>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<enter expr>
+<10>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 27:9>
+<ID 'y' 27:9>
+<PLUS '+' 27:11>
+<exit RValue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 27:13>
+<ID 'x' 27:13>
+<PLUS '+' 27:15>
+<exit RValue>
+<enter expr>
+<i>
+<enter RValue>
+<ID 'i' 27:17>
+<ID 'i' 27:17>
+<MULTIPLY '*' 27:18>
+<exit RValue>
+<enter expr>
+<10000000000000>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit ForStmt>
+<enter stmts>
+<enter ForStmt>
+<enter expr>
+<neg>
+<enter RValue>
+<enter expr>
+<99999>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit RValue>
+<exit expr>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 30:24>
+<ID 'x' 30:24>
+<DO 'do' 30:26>
+<exit RValue>
+<exit expr>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 31:9>
+<ID 'x' 31:9>
+<MULTIPLY '*' 31:11>
+<exit RValue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 31:13>
+<ID 'x' 31:13>
+<END 'end' 32:3>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit ForStmt>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<1>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<enter ForStmt>
+<enter expr>
+<0>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 35:16>
+<ID 'x' 35:16>
+<DO 'do' 35:18>
+<exit RValue>
+<exit expr>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 36:9>
+<ID 'y' 36:9>
+<MULTIPLY '*' 36:11>
+<exit RValue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 36:13>
+<ID 'x' 36:13>
+<MINUS '-' 36:14>
+<exit RValue>
+<enter expr>
+<i>
+<enter RValue>
+<ID 'i' 36:15>
+<ID 'i' 36:15>
+<END 'end' 37:3>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit ForStmt>
+<enter stmts>
+<enter IfStmt>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 40:6>
+<ID 'x' 40:6>
+<GREATER '>' 40:8>
+<exit RValue>
+<enter expr>
+<0>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 41:11>
+<ID 'x' 41:11>
+<RPAREN ')' 41:12>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<enter condt>
+<exit condt>
+<exit IfStmt>
+<enter stmts>
+<enter IfStmt>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 44:6>
+<ID 'x' 44:6>
+<GREATER '>' 44:8>
+<exit RValue>
+<enter expr>
+<0>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 45:11>
+<ID 'x' 45:11>
+<RPAREN ')' 45:12>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<enter condt>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 46:10>
+<ID 'x' 46:10>
+<LESS '<' 46:12>
+<exit RValue>
+<enter expr>
+<neg>
+<enter RValue>
+<enter expr>
+<9999>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<WOW!>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 48:10>
+<ID 'y' 48:10>
+<NOT_EQUAL '!=' 48:12>
+<exit RValue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 48:15>
+<ID 'x' 48:15>
+<THEN 'then' 48:17>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<Thought so>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 50:10>
+<ID 'y' 50:10>
+<GREATER '>' 50:12>
+<exit RValue>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 50:14>
+<ID 'x' 50:14>
+<THEN 'then' 50:16>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<No way>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<HMMMMMMMMMMM>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit condt>
+<exit IfStmt>
+<enter stmts>
+<enter VarDeclStmt>
+<parameter>
+<enter expr>
+<nil>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit VarDeclStmt>
+<enter stmts>
+<enter IfStmt>
+<enter expr>
+<x>
+<enter RValue>
+<ID 'x' 59:6>
+<ID 'x' 59:6>
+<GREATER '>' 59:8>
+<exit RValue>
+<enter expr>
+<1>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter IfStmt>
+<enter expr>
+<y>
+<enter RValue>
+<ID 'y' 60:8>
+<ID 'y' 60:8>
+<GREATER '>' 60:10>
+<exit RValue>
+<enter expr>
+<2>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter IfStmt>
+<enter expr>
+<4>
+<enter RValue>
+<exit RValue>
+<enter expr>
+<3>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter IfStmt>
+<enter expr>
+<a>
+<enter RValue>
+<ID 'a' 62:12>
+<ID 'a' 62:12>
+<LESS '<' 62:14>
+<exit RValue>
+<enter expr>
+<b>
+<enter RValue>
+<ID 'b' 62:16>
+<ID 'b' 62:16>
+<THEN 'then' 62:18>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<a>
+<enter RValue>
+<ID 'a' 63:18>
+<ID 'a' 63:18>
+<COMMA ',' 63:19>
+<exit RValue>
+<exit expr>
+<enter expr>
+<b>
+<enter RValue>
+<ID 'b' 63:21>
+<ID 'b' 63:21>
+<COMMA ',' 63:22>
+<exit RValue>
+<exit expr>
+<enter expr>
+<c>
+<enter RValue>
+<ID 'c' 63:24>
+<ID 'c' 63:24>
+<COMMA ',' 63:25>
+<exit RValue>
+<exit expr>
+<enter expr>
+<d>
+<enter RValue>
+<ID 'd' 63:27>
+<ID 'd' 63:27>
+<COMMA ',' 63:28>
+<exit RValue>
+<exit expr>
+<enter expr>
+<e>
+<enter RValue>
+<ID 'e' 63:30>
+<ID 'e' 63:30>
+<COMMA ',' 63:31>
+<exit RValue>
+<exit expr>
+<enter expr>
+<f>
+<enter RValue>
+<ID 'f' 63:33>
+<ID 'f' 63:33>
+<RPAREN ')' 63:34>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<enter condt>
+<exit condt>
+<exit IfStmt>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<a>
+<enter RValue>
+<ID 'a' 65:21>
+<ID 'a' 65:21>
+<COMMA ',' 65:22>
+<exit RValue>
+<exit expr>
+<enter expr>
+<b>
+<enter RValue>
+<ID 'b' 65:24>
+<ID 'b' 65:24>
+<RPAREN ')' 65:25>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<enter CallExpr>
+<enter expr>
+<parameter>
+<enter RValue>
+<ID 'parameter' 66:34>
+<ID 'parameter' 66:34>
+<COMMA ',' 66:43>
+<exit RValue>
+<exit expr>
+<enter expr>
+<f>
+<enter RValue>
+<ID 'f' 66:45>
+<ID 'f' 66:45>
+<COMMA ',' 66:46>
+<exit RValue>
+<exit expr>
+<enter expr>
+<h>
+<enter RValue>
+<ID 'h' 66:48>
+<ID 'h' 66:48>
+<COMMA ',' 66:49>
+<exit RValue>
+<exit expr>
+<enter expr>
+<lmnop>
+<enter RValue>
+<ID 'lmnop' 66:51>
+<ID 'lmnop' 66:51>
+<RPAREN ')' 66:56>
+<exit RValue>
+<exit expr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<enter condt>
+<exit condt>
+<exit IfStmt>
+<enter stmts>
+<enter ForStmt>
+<enter expr>
+<0>
+<enter RValue>
+<exit RValue>
+<exit expr>
+<enter expr>
+<g>
+<enter RValue>
+<ID 'g' 68:18>
+<ID 'g' 68:18>
+<DO 'do' 68:20>
+<exit RValue>
+<exit expr>
+<enter stmts>
+<enter CallExpr>
+<exit CallExpr>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit ForStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<enter condt>
+<exit condt>
+<exit IfStmt>
+<enter stmts>
+<enter WhileStmt>
+<enter expr>
+<g>
+<enter RValue>
+<ID 'g' 72:11>
+<ID 'g' 72:11>
+<LESS_EQUAL '<=' 72:13>
+<exit RValue>
+<enter expr>
+<h>
+<enter RValue>
+<ID 'h' 72:16>
+<ID 'h' 72:16>
+<DO 'do' 72:18>
+<exit RValue>
+<exit expr>
+<exit expr>
+<enter stmts>
+<enter AssignStmt>
+<enter lvalue>
+<enter lvalue>
+<enter expr>
+<parameter>
+<enter RValue>
+<ID 'parameter' 73:19>
+<ID 'parameter' 73:19>
+<MULTIPLY '*' 73:28>
+<exit RValue>
+<enter expr>
+<parameter>
+<enter RValue>
+<ID 'parameter' 73:29>
+<ID 'parameter' 73:29>
+<END 'end' 74:5>
+<exit RValue>
+<exit expr>
+<exit expr>
+<exit AssignStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit WhileStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<enter condt>
+<exit condt>
+<exit IfStmt>
+<enter stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit stmts>
+<exit FDecl>
+MADE IT HEREimport
+<exit Import stmt>
+IN PARSE LOOPtest4
+<enter FDecl>
+Parser Error: Expecting fun in function declaration found 'test4' at line 3 column 8
