@@ -1,0 +1,63 @@
+# example expressions
+
+fun int main()
+
+  # simple arithmetic
+  var x = 1
+  var y = 2 * 3
+  var z = 0 - 1
+  var w = 4 / 2
+  var u = 5 % 2
+  var v = neg 3
+  var s = neg 2.91
+
+  # more involved expressions
+  x = 4 * 5 + 2
+  x = 3 * x + y
+  x = x + 1 / 2 - z
+  y = y%z+2*x
+  y = 1/arctan(x)
+  y = 1/x+2/y+4%x+2*4*5*5*y*x
+  # TODO: add additional expression cases
+
+
+  # parenthesized expressions
+  x = ((5))
+  x = (5 + 3)
+  x = 5 + (3 * 2)
+  x = (5 + 3) * 2
+  x = ((4 / (1 + 1)) + 1)
+  x = (4 / (1 + (1 + 1)))
+  x = ((x + y) / 2) + (1 / 2)
+  x = (((((2+x))*((((x+z-y))*42)+(x*x*x)))/(z*x*y))+26)%x
+  # TODO: add additional cases 
+
+
+  # boolean operators
+  var a = true
+  var b = not a
+  var c = a or b
+  var d = not a and b
+  a = a or b and c or d
+  var e = not b or c and d
+  # TODO: add additional cases
+
+
+  # parenthesized boolean ops
+  b = (a or b) and (not (c or (d and b)))
+  a = (((((((a or b) and c and d and e and f or h or i))) and (a and b)) or (x and y and z))) and (a and b or c and d and e or f and h or i)
+  # TODO: add additional cases
+
+
+  # relational operators
+  var m = 0 < 1
+  var n = m == 1
+  var l = x >= 2
+  var o = y <= 0
+  m = 1 > 0
+  n = m and n or l and o
+  # TODO: add additional cases
+
+
+end
+

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/hw2.cpp
+iostream
+-
+fstream
+-
+token.h
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/token.h
+lexer.h
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/lexer.h
+mypl_exception.h
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/mypl_exception.h
+
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/lexer.h
+istream
+-
+string
+-
+token.h
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/token.h
+mypl_exception.h
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/mypl_exception.h
+
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/mypl_exception.h
+
+/home/toast/Documents/School/Spring2021/CPSC326/project-jlunder00/token.h
+string
+-
+map
+-
+
